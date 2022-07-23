@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { FiMenu, FiX } from "react-icons/fi";
-import logoMP from "../assets/icon-mp.png";
 
 const Navbar = ({ navbarLinks }) => {
   const [menuClicked, setMenuClicked] = useState(false);
